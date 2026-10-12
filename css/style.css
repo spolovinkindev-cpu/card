@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/InterRegular.woff2");
+}
+
+
+.profile-card {
+    width: 281px;
+    height: 122px;
+    background-color: #1A1D22;
+    border: 1px solid #2A2F37;
+    border-radius: 20px;
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 400;
+
+
+}
+
+.profile-card_info {
+    margin: 16px;
+}
+
+.profile-card__avatar img {
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    padding: 25px 16px;
+
+}
+
+.profile-card__name {
+    font-size: 20px;
+    color: #F3F4F6;
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.profile-card__role {
+    font-size: 14px;
+    color: #9CA3AF;
+    margin: 0;
+    margin-bottom: 12px;
+
+}
+
+.profile-card__button {
+    text-decoration: none;
+    color: #F3F4F6;
+    background: #00447C;
+    padding: 8px 12px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
